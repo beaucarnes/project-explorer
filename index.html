@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Project explorer test</title>
+  <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='style.css'>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="text-center">Beau Carnes Project Explorer</h1>
+    <div class="col-md-offset-2 col-md-8">
+      <p class="text-center">Total projects: <span id="total"></span></p>
+      <div id="radioBtn" class="techSelection text-center">
+         <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="featured" id="start">Featured</a>
+        <a class="btn btn-primary btn-sm active" data-toggle="proj" data-title="">All</a><br>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="javascript">JavaScript</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="rails">Ruby on Rails</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="node">Node.js</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="java8">Java</a><br>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="react">React</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="angular">Angular</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="ionic">Ionic</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="mongodb">MongoDB</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="html">HTML</a>
+        <a class="btn btn-primary btn-sm notActive" data-toggle="proj" data-title="bootstrap">Bootstrap</a>
+      </div>
+      <div id="results"></div>
+    </div>
+  </div>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='projects.js'></script>
+  <script src='script.js'></script>
+
+</body>
+</html>
+ 
