@@ -132,7 +132,7 @@ const projects = [
     "tags":"javascript html",
     "description":"Get immediate results from Wikipedia as you type.",
     "link":"http://codepen.io/beaucarnes/full/XKaYYp/",
-    "img":"Wikipediasearch.png"
+    "img":"wikipediasearch.png"
   },
   {
     "title":"Tic Tac Toe",
